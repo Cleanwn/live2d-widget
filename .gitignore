@@ -1,5 +1,8 @@
 package-lock.json
 node_modules/
+build/
+dist/chunk/
+dist/waifu-tips.*
 .DS_Store
 .idea/
 .vscode/

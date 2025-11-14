@@ -265,7 +265,7 @@ class Cubism2Model {
 
     this.dragMgr.setPoint(vx, vy);
 
-    if (this.live2DMgr?.model.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
+    if (this.live2DMgr?.model?.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
       window.dispatchEvent(new Event('live2d:hoverbody'));
     }
   }
